@@ -1,0 +1,117 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Adjusted font size */
+  }
+  
+  body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 16px; /* Adjusted font size */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 300px; 
+    margin: 10px; 
+    padding: 10px 15px; 
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /
+  }
+  
+  .container-card {
+    margin: 5px; /* Adjusted margin */
+    gap: 20px; /* Adjusted gap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    gap: 15px; /* Adjusted gap */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-title {
+    align-self: flex-start;
+  }
+  
+  .card-desc p {
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .card-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-duration, .card-duration p {
+    align-items: center;
+    margin-left: auto;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .card-duration {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .container-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-price img {
+    width: 12px; /* Adjusted icon size */
+    height: auto;
+    margin-right: 3px; /* Adjusted margin */
+  }
+  
+  .card-duration img {
+    width: 12px; /* Adjusted icon size */
+    height: auto;
+    margin-left: 5px; /* Adjusted margin */
+  }
+  
+  .card-price h4 {
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+  }
+  
+  .horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+    margin: 8px 0; /* Adjusted margin */
+  }
+  
+  .profile {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    height: auto;
+    margin-right: 8px; 
+  }
+  
+  .creation {
+    color: hsl(215, 51%, 70%);
+  }
+  
